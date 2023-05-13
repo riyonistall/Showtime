@@ -2,10 +2,11 @@
   "name": "showtime",
   "version": "0.0.0",
   "scripts": {
-    "npm":"npm",
+    "ng": "ng",
     "start": "npm start",
     "build": "npm run build",
-    
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
